@@ -28,11 +28,15 @@
         height: 100vh;
 
     }
-    .stagram-phone{
+    .instagram-phone{
         display:flex;
         align-items: center;
         justify-content: center;
-        width: 10%;
+        width: 50%;
+    }
 
+    .instagram-continue{
 
     }
+
+    
