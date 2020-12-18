@@ -17,3 +17,16 @@
         justify-content: center;
 
     }
+    
+    
+    
+    .instagram-wrapper{
+        display: flex;/*todos os elementos dentro desse container ficarão em linha, ocupando todo o espaço dentro daquela linha */
+        align-items: center;
+        justify-content: start;
+        width: 60%;
+        height: 100vh;
+
+    }
+
+    
