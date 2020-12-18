@@ -34,9 +34,14 @@
         justify-content: center;
         width: 50%;
     }
-
+    /*estiliza o container da direita*/
     .instagram-continue{
-
+        display:flex;
+        align-items: center;/*horizotal*/
+        justify-content: space-around;/*vertical*/
+        flex-direction: column ;
+        width: 50%;
+        min-width: 34rem;
     }
 
     
