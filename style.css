@@ -18,8 +18,7 @@
 
     }
     
-    
-    
+     /*deixa tanto o login quanto o container no meio da tela*/ 
     .instagram-wrapper{
         display: flex;/*todos os elementos dentro desse container ficarão em linha, ocupando todo o espaço dentro daquela linha */
         align-items: center;/*alinhamento vertical dos itens*/
@@ -34,14 +33,39 @@
         justify-content: center;
         width: 50%;
     }
+
+    instagram-phone img{
+        height: 50rem;
+
+    }
+
+
     /*estiliza o container da direita*/
     .instagram-continue{
         display:flex;
         align-items: center;/*horizotal*/
         justify-content: space-around;/*vertical*/
-        flex-direction: column ;
+        flex-direction: column ;/*deixa os eixos ao contrário*/
         width: 50%;
         min-width: 34rem;
+    }
+    /*Estilizando os dois containers brancos(Continue e Alternar contas)*/
+    .group{
+        display:flex;
+        align-items: center;/*horizotal*/
+        justify-content: space-between;
+        flex-direction: column ;/*deixa os eixos ao contrário*/
+        background-color: #ffffff;
+        width: 100%;
+       padding: 1.3rem 0;
+       border: 1px solid lightgray;
+
+    }
+
+    /*definindo os tamanhos dos meus containers*/
+    .group:nth-child(1){
+
+        min-height: 19rem;
     }
 
     
