@@ -39,7 +39,6 @@
 
     }
 
-
     /*estiliza o container da direita*/
     .instagram-continue{
         display:flex;
@@ -47,7 +46,7 @@
         justify-content: space-around;/*vertical*/
         flex-direction: column ;/*deixa os eixos ao contrário*/
         width: 50%;
-        min-width: 34rem;
+        min-height: 34rem;
     }
     /*Estilizando os dois containers brancos(Continue e Alternar contas)*/
     .group{
@@ -67,5 +66,11 @@
 
         min-height: 19rem;
     }
+    
+    .instagram-logo{
+        height: 3rem;
+
+    }
+    
 
     
