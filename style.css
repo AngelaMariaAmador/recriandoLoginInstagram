@@ -71,15 +71,26 @@
         height: 3rem;
 
     }
+    .profile-photo{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        overflow: hidden;
+    }
 
 /* estiliza o link "Continue como angelaamador"*/
     .instagram-login{
-        background-color: #0095f6;
-        color:#ffffff;
-        padding: 8px ;
-        border-radius: 4px;       
+    
+            background-color: #0095f6;
+            color: #ffffff;
+            padding: 8px;
+            border-radius: 4px;
+    }
+               
 
 
-    }  
+    } 
+
 
     
