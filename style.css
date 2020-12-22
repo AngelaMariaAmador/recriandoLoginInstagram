@@ -85,6 +85,7 @@
             background-color: #0095f6;
             color: #ffffff;
             padding: 8px;
+            margin-top:1rem;/*aumenta o espaçamento entre a foto e o botao Continue como angelaamador*/
             border-radius: 4px;
     }
 
@@ -92,10 +93,17 @@
 	
         color: #0095f6;
         margin-top:1rem;
-            
-
-
-    } 
+    }
+    
+    /*Estiliza os link "Não é angelaamador?" e */
+    .not-account {
+        color: rgb(160, 160, 160);
+    }
+    
+    .link-blue {
+        color: #0095f6;
+    }
+    
 
 
     
