@@ -103,7 +103,18 @@
     .link-blue {
         color: #0095f6;
     }
-    
+
+    /* Estiliza o container da seção "baixe o aplicativo"*/
+   .get-the-app{
+
+        display:flex;
+        flex-direction: column;/*todos os itens firacarão um em baixo do outro*/
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 1.3rem 0;
+
+} 
 
 
     
