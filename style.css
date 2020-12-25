@@ -114,7 +114,17 @@
         width: 100%;
         padding: 1.3rem 0;
 
-} 
+    } 
+    /*Estiliza o container onde estão os botões de da "Apple" e da "Google Play Store"*/
+    .download{
 
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;/* Deixa o objeto com o mesmo espaço tanto nos lados quanto no meio*/
+        align-items: center;
+        padding: 1rem;
+    
+    }
+    .
 
     
